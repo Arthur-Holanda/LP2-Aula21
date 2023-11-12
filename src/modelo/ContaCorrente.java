@@ -5,11 +5,6 @@ public class ContaCorrente implements ITributavel{
     private String numero;
     private double saldo;
 
-    public ContaCorrente(String agencia, String numero, double saldo) {
-        this.agencia = agencia;
-        this.numero = numero;
-        this.saldo = saldo;
-    }
 
     public ContaCorrente() {
 

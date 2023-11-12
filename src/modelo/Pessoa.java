@@ -6,12 +6,6 @@ public class Pessoa {
     private ContaCorrente conta;
     private SeguroVida seguro;
 
-    public Pessoa(String nome, double salario, ContaCorrente conta, SeguroVida seguro) {
-        this.nome = nome;
-        this.salario = salario;
-        this.conta = conta;
-        this.seguro = seguro;
-    }
 
     public Pessoa() {
     }

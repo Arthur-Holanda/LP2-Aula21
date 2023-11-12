@@ -7,37 +7,6 @@ import modelo.Pessoa;
 import modelo.SeguroVida;
 
 public class ImpostoRendaPF {
-    /*
-    public static void main(String[] args) {
-        // Instanciando objetos Pessoa
-        Pessoa pessoa1 = criarPessoaExemplo("João", 5000, 10000, 20000);
-        Pessoa pessoa2 = criarPessoaExemplo("Maria", 6000, 15000, 25000);
-        Pessoa pessoa3 = criarPessoaExemplo("Pedro", 7000, 12000, 18000);
-
-        // Instanciando PessoaDAO
-        PessoaDAO pessoaDAO = new PessoaDAO();
-
-        // Persistindo objetos Pessoa na PessoaDAO
-        pessoaDAO.cadastraPessoa(pessoa1);
-        pessoaDAO.cadastraPessoa(pessoa2);
-        pessoaDAO.cadastraPessoa(pessoa3);
-
-        // Calculando e imprimindo os tributos de cada pessoa
-        GeradorImpostoRenda geradorImpostoRenda = new GeradorImpostoRenda();
-        System.out.println("Tributos a serem recolhidos por cada pessoa:");
-        System.out.println("Pessoa 1: R$" + geradorImpostoRenda.calculaValorTotalTributo(pessoa1));
-        System.out.println("Pessoa 2: R$" + geradorImpostoRenda.calculaValorTotalTributo(pessoa2));
-        System.out.println("Pessoa 3: R$" + geradorImpostoRenda.calculaValorTotalTributo(pessoa3));
-    }
-
-    // Método auxiliar para criar pessoa com exemplo de conta corrente e seguro vida
-    private static Pessoa criarPessoaExemplo(String nome, double salario, double saldoConta, double valorSeguro) {
-        ContaCorrente conta = new ContaCorrente("001", "12345", saldoConta);
-        SeguroVida seguro = new SeguroVida(1, "Familiar", valorSeguro, 31.50);
-        return new Pessoa(nome, salario, conta, seguro);
-    }
-    */
-
     public static void main(String[] args) {
         PessoaDAO daoP = new PessoaDAO();
         ContaCorrente cc1 = new ContaCorrente();

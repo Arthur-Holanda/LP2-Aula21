@@ -6,12 +6,6 @@ public class SeguroVida implements ITributavel{
     private double valor;
     private double taxa;
 
-    public SeguroVida(int numero, String beneficiado, double valor, double taxa) {
-        this.numero = numero;
-        this.beneficiado = beneficiado;
-        this.valor = valor;
-        this.taxa = taxa;
-    }
 
     public SeguroVida() {
 
