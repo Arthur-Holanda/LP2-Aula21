@@ -1,4 +1,4 @@
-package modelo;
+package br.ufrn.imd.modelo;
 
 public class SeguroVida implements ITributavel{
     private int numero;

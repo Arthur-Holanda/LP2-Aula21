@@ -1,4 +1,4 @@
-package modelo;
+package br.ufrn.imd.modelo;
 
 public class ContaCorrente implements ITributavel{
     private String agencia;

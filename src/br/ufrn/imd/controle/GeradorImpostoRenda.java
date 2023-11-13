@@ -1,7 +1,7 @@
-package controle;
+package br.ufrn.imd.controle;
 
-import modelo.ITributavel;
-import modelo.Pessoa;
+import br.ufrn.imd.modelo.ITributavel;
+import br.ufrn.imd.modelo.Pessoa;
 
 public class GeradorImpostoRenda {
     private double totalTributo;

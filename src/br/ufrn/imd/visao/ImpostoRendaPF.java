@@ -1,10 +1,9 @@
-package visao;
+package br.ufrn.imd.visao;
 
-import controle.GeradorImpostoRenda;
-import dao.PessoaDAO;
-import modelo.ContaCorrente;
-import modelo.Pessoa;
-import modelo.SeguroVida;
+import br.ufrn.imd.dao.PessoaDAO;
+import br.ufrn.imd.modelo.ContaCorrente;
+import br.ufrn.imd.modelo.Pessoa;
+import br.ufrn.imd.modelo.SeguroVida;
 
 public class ImpostoRendaPF {
     public static void main(String[] args) {
